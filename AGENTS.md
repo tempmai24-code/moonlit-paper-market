@@ -28,3 +28,5 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+Paper-trading UI and simulation rules live in `src/features/trading`; keep order sizing and risk logic separate from presentation so the 10% cap is testable.
